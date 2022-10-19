@@ -4,10 +4,6 @@ public class Calculator {
 
     private int countValue;
 
-    public Calculator() {
-        countValue = 0;
-    }
-
 
     public int add(int i, int i1) {
         return i + i1;
