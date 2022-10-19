@@ -9,9 +9,11 @@ public class Calculator {
     }
 
 
-    public int increment(){
+    public int add(int i, int i1) {
+        return i + i1;
+    }
 
-        countValue++;
-        return countValue;
+    public int sub(int i, int i1) {
+        return i - i1;
     }
 }
